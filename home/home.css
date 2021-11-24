@@ -13,14 +13,13 @@
     --font-android: 'Android', cursice;
 }
 
-* {
-    margin: 0px;
-    padding: 0px;
-}
+
 
 body {
     background-color: var(--cor1);
     font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+    padding: 0px;
 }
 
 header {
@@ -60,14 +59,18 @@ nav > a:hover {
 }
 
 main{
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: var(--cor0);
     text-align: left;
-    background-color: rgb(116, 113, 113);
-    color: rgb(250, 240, 24050, 240, 240);
+    background-color:var(--cor4);
+    color: var(--cor0);
     border-radius: 10px;
-    box-shadow: 10px 10px 10px ;
+    box-shadow: 2px 2px 2px ;
     width: 600px;
-    padding: 10px;
+    padding: 0px;
     margin: auto;
+    border-top: 10px;
+}
+
+article > h1 {
+    text-align: center;
 }
